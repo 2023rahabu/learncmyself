@@ -1,0 +1,2 @@
+# learncmyself
+teachyourself c
