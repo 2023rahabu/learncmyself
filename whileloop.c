@@ -8,7 +8,8 @@ int main()
     int c ;
     c = ' '; //initialize a space character something other than X
     printf("enter a character:\n(enter X to exist)\n");
-    while (c !='X'){
+    while (c !='X')
+    {
         c = getc(stdin); //Read the character
         putchar(c); // print the character
     }
