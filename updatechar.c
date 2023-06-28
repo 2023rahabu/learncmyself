@@ -4,7 +4,7 @@ int main(int argc, char const *argv[])
 {
     /* code */
     char ch = 0;
-    char ch ='A';
+    char ch = 'A';
     printf("original ch %d\n",&ch);
 
     return 0;

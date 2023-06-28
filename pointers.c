@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
- char c;
+ char C;
  int x;
  float y;
 
- printf("c: address=%p, content=%c\n", &c,c);
+ printf("C: address=%lu, content=%c\n", &C,C);
  printf("x: address=%p, content=%d\n", &x,x);
  printf("y: address=%p, content=%5.2f\n", &y,y);
 
- c = 'A';
+ C = 'A';
  x = 7;
  y = 123.45;
 
- printf("c: address=%p, content=%c\n", &c,c);
+ printf("C: address=%lu, content=%d\n", &C,C);
  printf("x: address=%p, content=%d\n", &x,x);
  printf("y: address=%p, content=%5.2f\n", &y,y);
     return 0;
