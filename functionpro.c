@@ -16,7 +16,8 @@ int main(int argc, char const *argv[])
   double x2 = 100.123456;
   double y2 = 10.123456;
 
-  printf("Pass function_1 %d and %d.\n", x1,y1); // value of x1,y1 are passedto the function 1
+  printf("Pass function_1 %d and %d.\n", (x1,y1)); // value of x1,y1 are passedto the function 1 
+  //value you pass have to hold same data type as the one you included in function definition
   printf(" function_1 return %d.\n", function_1(x1,y1)); //call function 1
   printf("Pass function_2 %f and %f.\n", x2,y2);// value of x2,y2 are passed to the function 2
   printf(" function_2 return %f.\n", function_2(x2,y2)); // call function 2
